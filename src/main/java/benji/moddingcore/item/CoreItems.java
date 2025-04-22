@@ -13,9 +13,10 @@ public class CoreItems {
     public static final int TICKS_PER_SECOND = 20;
     public static final int SECONDS_PER_MINUTE = 60;
 
+    private static final int MANGROVE_KNIFE_MAX_DAMAGE = 64;
     private static final int ARMOR_CORE_MAX_DAMAGE = 4;
 
-    public static final Item TESTER = register("tester", new Item(new FabricItemSettings()));
+    public static final Item MANGROVE_KNIFE = register("mangrove_knife", new CoreCraftingItem(new FabricItemSettings().maxDamage(MANGROVE_KNIFE_MAX_DAMAGE)));
     public static final Item CORRUPTED_NETHER_STAR = register("corrupted_nether_star", new Item(new FabricItemSettings()));
     public static final Item ARMOR_CORE = register("armor_core", new CoreCraftingItem(new FabricItemSettings().maxDamage(ARMOR_CORE_MAX_DAMAGE)));
 
@@ -23,6 +24,7 @@ public class CoreItems {
         Registry.register(Registries.ITEM_GROUP, CoreItemGroups.CORE_ITEM_GROUP_KEY, CoreItemGroups.CORE_ITEM_GROUP);
 
         ItemGroupEvents.modifyEntriesEvent(CoreItemGroups.CORE_ITEM_GROUP_KEY).register(itemGroup -> {
+            itemGroup.add(MANGROVE_KNIFE);
             itemGroup.add(CORRUPTED_NETHER_STAR);
             itemGroup.add(ARMOR_CORE);
         });

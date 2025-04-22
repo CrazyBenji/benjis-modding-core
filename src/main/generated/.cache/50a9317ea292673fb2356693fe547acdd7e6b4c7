@@ -1,7 +1,7 @@
-// 1.20.1	2025-04-21T23:03:15.3751997	Benji's Modding Core/Recipes
-9b5dc4f04129879bf0811e27ee9faa82cede9042 data\moddingcore\advancements\recipes\misc\tester.json
-42ba530f7808b06b8fd0e98b1c2cda53a0b6f2c1 data\moddingcore\recipes\corrupted_nether_star.json
-32a6ae9394bd596b986ed13f6a4f303d9a3ba8e0 data\moddingcore\advancements\recipes\misc\corrupted_nether_star.json
+// 1.20.1	2025-04-22T18:41:12.8216702	Benji's Modding Core/Recipes
 209de0a09be4b661a239dc52719740b8262d14c6 data\moddingcore\recipes\armor_core.json
-c4b92abe6ed17ffc920e858870bdbee0440abffb data\moddingcore\advancements\recipes\misc\armor_core.json
 f87c7e2ba7130da74a640b19c36ece11e8acd99e data\moddingcore\recipes\tester.json
+9b5dc4f04129879bf0811e27ee9faa82cede9042 data\moddingcore\advancements\recipes\misc\tester.json
+c4b92abe6ed17ffc920e858870bdbee0440abffb data\moddingcore\advancements\recipes\misc\armor_core.json
+32a6ae9394bd596b986ed13f6a4f303d9a3ba8e0 data\moddingcore\advancements\recipes\misc\corrupted_nether_star.json
+42ba530f7808b06b8fd0e98b1c2cda53a0b6f2c1 data\moddingcore\recipes\corrupted_nether_star.json

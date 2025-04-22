@@ -39,10 +39,11 @@ public class CoreRecipeProvider extends FabricRecipeProvider {
                 .input('g', Items.GOLD_INGOT)
                 .criterion(hasItem(CoreItems.CORRUPTED_NETHER_STAR), conditionsFromItem(CoreItems.CORRUPTED_NETHER_STAR))
                 .offerTo(exporter);
-
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, CoreItems.TESTER, 1)
-                .input(CoreItems.ARMOR_CORE)
-                .criterion(hasItem(CoreItems.ARMOR_CORE), conditionsFromItem(CoreItems.ARMOR_CORE))
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, CoreItems.MANGROVE_KNIFE)
+                .pattern("iim")
+                .input('i', Items.IRON_INGOT)
+                .input('m', Items.MANGROVE_LOG)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
     }
 }

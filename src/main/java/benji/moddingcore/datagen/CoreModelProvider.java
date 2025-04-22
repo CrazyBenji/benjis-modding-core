@@ -21,5 +21,6 @@ public class CoreModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator modelGenerator) {
         modelGenerator.register(CoreItems.CORRUPTED_NETHER_STAR, Models.GENERATED);
         modelGenerator.register(CoreItems.ARMOR_CORE, Models.GENERATED);
+        modelGenerator.register(CoreItems.MANGROVE_KNIFE, Models.GENERATED);
     }
 }
