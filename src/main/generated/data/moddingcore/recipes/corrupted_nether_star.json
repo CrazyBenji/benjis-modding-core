@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "p": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "s": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "pnp",
+    "nsn",
+    "pnp"
+  ],
+  "result": {
+    "item": "moddingcore:corrupted_nether_star"
+  },
+  "show_notification": true
+}

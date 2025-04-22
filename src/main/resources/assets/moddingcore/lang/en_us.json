@@ -1,0 +1,7 @@
+{
+  "itemGroup.core_item_group": "Benji's Modding Core",
+
+  "text.autoconfig.moddingcore.title": "Benji's Modding Core",
+  "text.autoconfig.moddingcore.option.foodEffects": "Food Status Effects",
+  "text.autoconfig.moddingcore.option.armorEffects": "Armor Status Effects"
+}

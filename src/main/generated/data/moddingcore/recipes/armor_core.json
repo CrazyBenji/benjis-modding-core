@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "moddingcore:corrupted_nether_star"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "l": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "p": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "prp",
+    "dcl",
+    "pgp"
+  ],
+  "result": {
+    "item": "moddingcore:armor_core"
+  },
+  "show_notification": true
+}
