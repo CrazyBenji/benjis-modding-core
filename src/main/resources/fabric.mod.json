@@ -35,6 +35,7 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"cloth-config-fabric": "*",
+		"modmenu": "*"
 	}
 }

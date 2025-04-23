@@ -4,6 +4,7 @@ import benji.moddingcore.config.CoreConfig;
 import benji.moddingcore.item.CoreItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.loader.api.FabricLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,7 +19,9 @@ public class BenjisModdingCore implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
-		CoreConfig.register();
+		if (FabricLoader.getInstance().isModLoaded("cloth-config2")) {
+			CoreConfig.register();
+		}
 		CoreItems.initialize();
 	}
 }
