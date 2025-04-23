@@ -5,7 +5,7 @@ import net.minecraft.item.ItemStack;
 
 public class CoreCraftingItem extends Item {
     public CoreCraftingItem(Settings settings) {
-        super(settings.maxCount(1));
+        super(settings);
     }
 
     @Override

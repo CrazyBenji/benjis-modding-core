@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_armor_core": {
+    "has_iron_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "moddingcore:armor_core"
+              "minecraft:iron_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moddingcore:tester"
+        "recipe": "moddingcore:mangrove_knife"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_armor_core",
+      "has_iron_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "moddingcore:tester"
+      "moddingcore:mangrove_knife"
     ]
   },
   "sends_telemetry_event": false

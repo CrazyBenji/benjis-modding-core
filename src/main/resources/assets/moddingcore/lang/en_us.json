@@ -1,4 +1,8 @@
 {
+  "item.moddingcore.mangrove_knife": "Mangrove Knife",
+  "item.moddingcore.corrupted_nether_star": "Corrupted Nether Star",
+  "item.moddingcore.armor_core": "Armor Core",
+
   "itemGroup.core_item_group": "Benji's Modding Core",
 
   "text.autoconfig.moddingcore.title": "Benji's Modding Core",

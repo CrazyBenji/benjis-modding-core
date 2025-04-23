@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "m": {
+      "item": "minecraft:mangrove_log"
+    }
+  },
+  "pattern": [
+    "iim"
+  ],
+  "result": {
+    "item": "moddingcore:mangrove_knife"
+  },
+  "show_notification": true
+}
